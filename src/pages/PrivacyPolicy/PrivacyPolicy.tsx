@@ -10,6 +10,14 @@ export const PrivacyPolicy: React.FC = () => {
         <ListElement>Name</ListElement>
         <ListElement>Background Image/Video title and URL</ListElement>
       </List>
+      <Header>Payment Information</Header>
+      <StandardText>
+        To upgrade to Atlas Premium, your credit card number, credit card
+        expiration date, and security code are required. All payment processing
+        is done through Stripe. When paying with a credit card, the card details
+        do not pass through our servers, they are sent directly to Stripe and
+        are stored securely, as per their Privacy and Security policies.
+      </StandardText>
       <Header>How do we collect your data?</Header>
       <List>
         <ListElement>Create an account</ListElement>
